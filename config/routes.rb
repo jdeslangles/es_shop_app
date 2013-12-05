@@ -1,4 +1,19 @@
 EsShop::Application.routes.draw do
+  resources :stores
+
+
+  resources :televisions
+
+
+  resources :cameras
+
+
+  resources :reviews
+
+
+  resources :products
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
